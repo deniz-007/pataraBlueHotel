@@ -4,22 +4,19 @@
 
       <b-card-group deck>
         <b-card
-          v-b-hover="handleHover"
           style="border: none"
           class="custom-card-text"
-          border-variant="dark transparent"
-          :header="$t('card1header')"
           header-bg-variant="dark transparent"
           header-text-variant="white"
+          border-variant="dark transparent"
+          :header="$t('card8header')"
           align="center"
-
-        >
-          <b-card-text > {{ $t('card1text') }} </b-card-text>
-          <BIconWifi/>
+          v-b-hover="handleHover">
+          <b-card-text>{{$t('card8text')}}</b-card-text>
           <div class="card-hover-overlay" v-if="isHovered">
-            <b-button       @click="redirectToBooking"
-                            variant="outline-light">{{ this.$t('card1button') }}</b-button>
+            <b-button   @click="redirectToBooking" variant="outline-light">Book</b-button>
           </div>
+          <b-icon-clock/>
         </b-card>
 
 
@@ -46,21 +43,20 @@
         <b-card
           style="border: none"
           class="custom-card-text"
-          border-variant="dark transparent"
-          :header="$t('card3header')"
-          header-border-variant="dark transparent"
-          header-text-variant="white"
           header-bg-variant="dark transparent"
+          header-text-variant="white"
+          border-variant="dark transparent"
+          :header="$t('card5header')"
           align="center"
-          v-b-hover="handleHover">
-          <b-card-text>{{$t('card3text')}}</b-card-text>
-          <b-icon-sun-fill/>
+          v-b-hover="handleHover"
+        >
+          <b-card-text>{{$t('card5text')}}</b-card-text>
           <div class="card-hover-overlay" v-if="isHovered">
-            <b-button
-              @click="redirectToBooking"
-              variant="outline-light">Book</b-button>
+            <b-button    @click="redirectToBooking" variant="outline-light">Book</b-button>
           </div>
+          <b-icon-flower1/>
         </b-card>
+
       </b-card-group>
     </div>
     <div class="mt-3">
@@ -79,22 +75,23 @@
             <b-button    @click="redirectToBooking" variant="outline-light">Book</b-button>
           </div>
         </b-card>
-
         <b-card
           style="border: none"
           class="custom-card-text"
-          header-bg-variant="dark transparent"
-          header-text-variant="white"
           border-variant="dark transparent"
-          :header="$t('card5header')"
+          :header="$t('card3header')"
+          header-border-variant="dark transparent"
+          header-text-variant="white"
+          header-bg-variant="dark transparent"
           align="center"
-          v-b-hover="handleHover"
-        >
-          <b-card-text>{{$t('card5text')}}</b-card-text>
+          v-b-hover="handleHover">
+          <b-card-text>{{$t('card3text')}}</b-card-text>
+          <b-icon-sun-fill/>
           <div class="card-hover-overlay" v-if="isHovered">
-            <b-button    @click="redirectToBooking" variant="outline-light">Book</b-button>
+            <b-button
+              @click="redirectToBooking"
+              variant="outline-light">Book</b-button>
           </div>
-          <b-icon-flower1/>
         </b-card>
         <b-card
           style="border: none"
@@ -132,20 +129,25 @@
           <b-icon-recycle/>
         </b-card>
         <b-card
+          v-b-hover="handleHover"
           style="border: none"
           class="custom-card-text"
+          border-variant="dark transparent"
+          :header="$t('card1header')"
           header-bg-variant="dark transparent"
           header-text-variant="white"
-          border-variant="dark transparent"
-          :header="$t('card8header')"
           align="center"
-          v-b-hover="handleHover">
-          <b-card-text>{{$t('card8text')}}</b-card-text>
+
+        >
+          <b-card-text > {{ $t('card1text') }} </b-card-text>
+          <BIconWifi/>
           <div class="card-hover-overlay" v-if="isHovered">
-            <b-button   @click="redirectToBooking" variant="outline-light">Book</b-button>
+            <b-button       @click="redirectToBooking"
+                            variant="outline-light">{{ this.$t('card1button') }}</b-button>
           </div>
-          <b-icon-clock/>
         </b-card>
+
+
       </b-card-group>
     </div>
   </div>

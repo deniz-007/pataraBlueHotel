@@ -7,12 +7,18 @@
 </template>
 
 <script>
-import Layout from '@/layouts/Layout.vue'
+import layout from '@/layouts/layout.vue'
+import pataraSlider from "@/components/pataraSlider.vue";
+import pataraDoubleCard from "@/components/pataraDoubleCard.vue";
+import pataraDoubleCard2 from "@/components/pataraDoubleCard2.vue";
 
 export default {
   name: 'patara',
   components: {
-    Layout
+    layout,
+    pataraSlider,
+    pataraDoubleCard2,
+    pataraDoubleCard
   }
 }
 </script>

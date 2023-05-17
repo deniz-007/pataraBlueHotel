@@ -11,6 +11,7 @@
 
 <script>
 import Layout from '@/layouts/Layout.vue'
+import engelli from "@/components/engelli.vue";
 import Home from '@/components/Home.vue'
 import Possibilities from '@/components/Possibilities.vue'
 import HotelCard from '@/components/HotelCard.vue'
@@ -25,7 +26,8 @@ export default {
     Possibilities,
     HotelCard,
     CommentSection,
-    ReservationCard
+    ReservationCard,
+    engelli
   }
 }
 </script>

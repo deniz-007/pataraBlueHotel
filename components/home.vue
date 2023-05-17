@@ -2,7 +2,8 @@
   <div class="container-fluid backGround" :style="image">
     <div class="d-flex justify-content-center align-items-center h-100">
       <h1 class="hotel-title">PATARA BLUE HOTEL</h1>
-      <b-button class="my-button-class align-content-center" style="margin-top: auto; margin-bottom: auto" variant="success">{{ $t('book') }}</b-button>
+
+      <b-button  @click="redirectToBooking" class="my-button-class align-content-center" style="margin-top: auto; margin-bottom: auto" variant="success">{{ $t('book') }}</b-button>
     </div>
   </div>
 </template>
@@ -14,7 +15,12 @@ export default {
     return {
       image: { backgroundImage: `url(${backGround})`},
     };
-  }
+  },
+  methods: {
+    redirectToBooking() {
+      window.location.href = 'https://www.etstur.com/Patara-Blue-Hotel';
+    },
+  },
 };
 </script>
 

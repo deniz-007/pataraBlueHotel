@@ -10,6 +10,7 @@
 import Navbar from '@/components/Navbar.vue'
 import Footer1 from '@/components/Footer1.vue'
 
+
 export default {
   name: 'layout',
   components: {

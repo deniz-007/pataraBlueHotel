@@ -10,16 +10,22 @@
 </template>
 
 <script>
-import Layout from '@/layouts/Layout.vue'
-import HotelSlider from '@/components/HotelSlider.vue'
-import HotelPhoto from '@/components/HotelPhoto.vue'
+import layout from '@/layouts/Layout.vue'
+import hotelSlider from '@/components/HotelSlider.vue'
+import aboutHotel from "@/components/aboutHotel.vue";
+import reservationCard from "@/components/reservationCard.vue";
+import hotelPhoto from '@/components/HotelPhoto.vue'
+import banyo from "@/components/banyo.vue";
 
 export default {
   name: 'blueHotel',
   components: {
-    Layout,
-    HotelSlider,
-    HotelPhoto
+    layout,
+    hotelSlider,
+    hotelPhoto,
+    banyo,
+    reservationCard,
+    aboutHotel
   }
 }
 </script>

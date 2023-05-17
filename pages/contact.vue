@@ -1,18 +1,19 @@
 <template>
   <layout>
     <contact1 />
-    <GoogleMap />
   </layout>
 </template>
 
 <script>
-import Layout from '@/layouts/Layout.vue'
+import layout from '@/layouts/Layout.vue'
+import contact1 from "@/components/contact1.vue";
 
 
 export default {
   name: 'contact',
   components: {
-    Layout
+    layout,
+    contact1
   }
 }
 </script>
