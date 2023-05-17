@@ -1,19 +1,14 @@
 <template>
-  <layout>
-    <contact1 />
-  </layout>
+  <contact/>
 </template>
 
 <script>
-import layout from '@/layouts/layout.vue'
-import contact1 from "@/components/contact1.vue";
-
+import contact from "@/layouts/contact.vue";
 
 export default {
   name: 'contact',
   components: {
-    layout,
-    contact1
+    contact
   }
 }
 </script>
