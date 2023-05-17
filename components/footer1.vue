@@ -20,7 +20,7 @@ import { BIconPhone} from 'bootstrap-vue'
 import { BIconMailbox} from 'bootstrap-vue'
 
 export default {
-  name: 'Footer',
+  name: 'footer1',
   components: {
     BIconFacebook,
     BIconInstagram,

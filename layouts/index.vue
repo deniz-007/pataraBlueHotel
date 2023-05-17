@@ -10,23 +10,23 @@
 </template>
 
 <script>
-import Layout from '@/layouts/Layout.vue'
+import layout from '@/layouts/layout.vue'
 import engelli from "@/components/engelli.vue";
 import Home from '@/components/Home.vue'
-import Possibilities from '@/components/Possibilities.vue'
+import possibilities from '@/components/possibilities.vue'
 import HotelCard from '@/components/HotelCard.vue'
 import CommentSection from '@/components/CommentSection.vue'
-import ReservationCard from '@/components/ReservationCard.vue'
+import reservationCard from '@/components/reservationCard.vue'
 
 export default {
   name: 'index',
   components: {
-    Layout,
+    layout,
     Home,
-    Possibilities,
+    possibilities,
     HotelCard,
     CommentSection,
-    ReservationCard,
+    reservationCard,
     engelli
   }
 }

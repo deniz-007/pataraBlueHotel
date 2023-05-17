@@ -7,14 +7,14 @@
 </template>
 
 <script>
-import Navbar from '@/components/Navbar.vue'
+import navbar from '@/components/navbar.vue'
 import Footer1 from '@/components/Footer1.vue'
 
 
 export default {
   name: 'layout',
   components: {
-    Navbar,
+    navbar,
     Footer1
   }
 }
