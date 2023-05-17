@@ -6,6 +6,7 @@
   </layout>
 </template>
 
+
 <script>
 import layout from '@/layouts/layout.vue'
 import pataraSlider from "@/components/pataraSlider.vue";
