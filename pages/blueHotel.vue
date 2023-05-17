@@ -1,14 +1,31 @@
 <template>
-  <blueHotel/>
+  <layout>
+    <hotelSlider />
+    <aboutHotel/>
+    <hotelPhoto />
+    <banyo />
+    <reservationCard />
+
+  </layout>
 </template>
 
 <script>
-import blueHotel from "@/layouts/blueHotel.vue";
+import layout from '@/layouts/layout.vue'
+import HotelSlider from '@/components/HotelSlider.vue'
+import aboutHotel from "@/components/aboutHotel.vue";
+import reservationCard from "@/components/reservationCard.vue";
+import HotelPhoto from '@/components/HotelPhoto.vue'
+import banyo from "@/components/banyo.vue";
 
 export default {
   name: 'blueHotel',
   components: {
-    blueHotel
+    layout,
+    HotelSlider,
+    HotelPhoto,
+    banyo,
+    reservationCard,
+    aboutHotel
   }
 }
 </script>

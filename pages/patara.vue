@@ -1,13 +1,24 @@
 <template>
-  <patara/>
+  <layout>
+    <pataraSlider/>
+    <pataraDoubleCard/>
+    <pataraDoubleCard2/>
+  </layout>
 </template>
 
 <script>
-import patara from '~/layouts/patara.vue'
+import layout from '@/layouts/layout.vue'
+import pataraSlider from "@/components/pataraSlider.vue";
+import pataraDoubleCard from "@/components/pataraDoubleCard.vue";
+import pataraDoubleCard2 from "@/components/pataraDoubleCard2.vue";
+
 export default {
   name: 'patara',
   components: {
-    patara
+    layout,
+    pataraSlider,
+    pataraDoubleCard2,
+    pataraDoubleCard
   }
 }
 </script>
