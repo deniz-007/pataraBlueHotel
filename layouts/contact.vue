@@ -6,13 +6,13 @@
 
 <script>
 import Layout from '@/layouts/layout.vue'
-import contact1 from '@/components/contact1.vue'
+import Contact1 from '@/components/Contact1.vue'
 
 export default {
   name: 'contact',
   components: {
     Layout,
-    contact1
+    Contact1
   }
 }
 </script>

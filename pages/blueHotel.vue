@@ -11,18 +11,18 @@
 
 <script>
 import layout from '@/layouts/layout.vue'
-import hotelSlider from '@/components/hotelSlider.vue'
+import HotelSlider from '@/components/HotelSlider.vue'
 import aboutHotel from "@/components/aboutHotel.vue";
 import reservationCard from "@/components/reservationCard.vue";
-import hotelPhoto from '@/components/hotelPhoto.vue'
+import HotelPhoto from '@/components/HotelPhoto.vue'
 import banyo from "@/components/banyo.vue";
 
 export default {
   name: 'blueHotel',
   components: {
     layout,
-    hotelSlider,
-    hotelPhoto,
+    HotelSlider,
+    HotelPhoto,
     banyo,
     reservationCard,
     aboutHotel

@@ -8,14 +8,14 @@
 
 <script>
 import navbar from '@/components/navbar.vue'
-import footer1 from '@/components/footer1.vue'
+import Footer1 from '@/components/Footer1.vue'
 
 
 export default {
   name: 'layout',
   components: {
     navbar,
-    footer1
+    Footer1
   }
 }
 </script>
