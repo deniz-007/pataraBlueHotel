@@ -1,6 +1,6 @@
 <template>
   <layout>
-    <home />
+    <home/>
     <possibilities />
     <engelli/>
     <hotelCard />
@@ -12,20 +12,20 @@
 <script>
 import layout from '@/layouts/layout.vue'
 import engelli from "@/components/engelli.vue";
-import Home from '@/components/Home.vue'
+import home from '@/components/home.vue'
 import possibilities from '@/components/possibilities.vue'
-import HotelCard from '@/components/HotelCard.vue'
-import CommentSection from '@/components/CommentSection.vue'
+import hotelCard from '@/components/hotelCard.vue'
+import commentSection from '@/components/commentSection.vue'
 import reservationCard from '@/components/reservationCard.vue'
 
 export default {
   name: 'index',
   components: {
     layout,
-    Home,
+    home,
     possibilities,
-    HotelCard,
-    CommentSection,
+    hotelCard,
+    commentSection,
     reservationCard,
     engelli
   }
