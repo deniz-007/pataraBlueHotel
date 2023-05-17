@@ -1,11 +1,7 @@
 export default {
 
   layouts: {
-    layout: "~/layouts/layout.vue",
-    index: "~/layouts/index.vue",
-    contact: "~/layouts/contact.vue",
-    blueHotel: "~/layouts/blueHotel.vue",
-    patara: "~/layouts/patara.vue",
+
   },
 
   ssr: false,
