@@ -6,7 +6,7 @@ export default {
 
   ssr: false,
 
-  target: 'static',
+  target: 'server',
 
   head: {
     title: 'Patara Blue Hotel',
