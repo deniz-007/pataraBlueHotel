@@ -5,14 +5,14 @@
 </template>
 
 <script>
-import Layout from '@/layouts/Layout.vue'
-import Contact1 from '@/components/Contact1.vue'
+import layout from '@/layouts/layout.vue'
+import contact1 from '@/components/contact1.vue'
 
 export default {
   name: 'contact',
   components: {
-    Layout,
-    Contact1
+    layout,
+    contact1
   }
 }
 </script>

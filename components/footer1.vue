@@ -14,16 +14,13 @@
 </template>
 
 <script>
-import { BIconFacebook} from 'bootstrap-vue'
-import { BIconInstagram} from 'bootstrap-vue'
+
 import { BIconPhone} from 'bootstrap-vue'
 import { BIconMailbox} from 'bootstrap-vue'
 
 export default {
-  name: 'Footer',
+  name: 'footer1',
   components: {
-    BIconFacebook,
-    BIconInstagram,
     BIconPhone,
     BIconMailbox,
   }

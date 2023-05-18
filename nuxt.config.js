@@ -1,18 +1,15 @@
 export default {
 
   layouts: {
-    layout: "~/layouts/layout.vue",
-    index: "~/layouts/index.vue",
-    contact: "~/layouts/contact.vue",
-    blueHotel: "~/layouts/blueHotel.vue",
+
   },
 
   ssr: false,
 
-  target: 'static',
+  target: 'server',
 
   head: {
-    title: 'patarabluehotel',
+    title: 'Patara Blue Hotel',
     htmlAttrs: {
       lang: 'en'
     },
@@ -30,12 +27,7 @@ export default {
   css: [
   ],
 
-
-
-
-
-  components: true,
-
+  components: '~/components',
 
   buildModules: [
   ],

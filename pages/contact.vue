@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import layout from '@/layouts/Layout.vue'
+import layout from '@/layouts/layout.vue'
 import contact1 from "@/components/contact1.vue";
 
 

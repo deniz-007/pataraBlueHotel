@@ -11,6 +11,7 @@
 <script>
 import backGround from "./../images/hotelBackGround.jpg";
 export default {
+  name: "home",
   data() {
     return {
       image: { backgroundImage: `url(${backGround})`},
